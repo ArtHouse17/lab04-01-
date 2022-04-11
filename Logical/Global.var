@@ -1,0 +1,17 @@
+VAR
+	TrueSpeed : INT;
+	gAxis01_HW : SdcHwCfg_typ := (0);
+	gAxis01_DrvIf : SdcDrvIf16_typ := (0);
+	gAxis01_DiDoIf : SdcDiDoIf_typ := (0);
+	speed_plus_50 : {REDUND_UNREPLICABLE} INT;
+	speed_minus_50 : {REDUND_UNREPLICABLE} INT;
+	led : {REDUND_UNREPLICABLE} ARRAY[0..3] OF BOOL;
+	active_deactive : {REDUND_UNREPLICABLE} BOOL;
+	gAxis01_ModuleOk : BOOL := 0;
+	led4 : {REDUND_UNREPLICABLE} BOOL;
+	led3 : {REDUND_UNREPLICABLE} BOOL;
+	led2 : {REDUND_UNREPLICABLE} BOOL;
+	led1 : {REDUND_UNREPLICABLE} BOOL;
+	active_deactive_taming : {REDUND_UNREPLICABLE} BOOL;
+	gAxis01 : ACP10AXIS_typ;
+END_VAR

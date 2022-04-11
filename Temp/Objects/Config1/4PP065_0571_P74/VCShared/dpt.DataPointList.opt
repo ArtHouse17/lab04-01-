@@ -1,0 +1,12 @@
+<BuildOptions>
+  <BuildOption>
+    <SourceFile Value="C:/Users/admin/Documents/KVBO-04-21/Chernenko/4/Physical/Config1/4PP065_0571_P74/Cpu.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml>
+      <Task Name="ncsdcctrl" Source="ncsdcctrl.prg" />
+      <Task Name="motor" Source="motor.prg" />
+      <Task Name="light" Source="light.prg" />
+      <Task Name="light_tami" Source="light_taming.prg" />
+    </Xml>
+  </BuildOption>
+</BuildOptions>

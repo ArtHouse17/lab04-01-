@@ -1,0 +1,4 @@
+VAR
+	EVIRD : DRIVE;
+	speed : INT;
+END_VAR
